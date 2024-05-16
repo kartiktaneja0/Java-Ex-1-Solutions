@@ -7,6 +7,7 @@ class Question1 {
     }
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter 3 numbers below to get their average");
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
