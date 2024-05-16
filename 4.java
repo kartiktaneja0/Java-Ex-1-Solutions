@@ -7,9 +7,10 @@ class Question4 {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter the radius below in cms :");
         double r = sc.nextDouble();
 
         double cir = Circum(r);
-        System.out.println("The circumference of the circle is : "+cir);
+        System.out.println("The circumference of the circle is : "+cir+ "cms");
     }
 }
